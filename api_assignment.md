@@ -38,7 +38,7 @@ Let's break it down:
 - Comments and Likes are connected to both the Users table and the Posts table. This is because, even though Posts are made by one user, a comment could be made by a different user.
 - Albums contain many Pictures, but each Picture isn't associated with a User - they are associated with an Album, which is then associated with a User. This is because only the user who created the Album can add a Picture to it. Therefore, a `user_id` column in Pictures would be redundant.
 
-You task today is to create a .sql file that creates and properly associates these tables.
+Your task today is to create a .sql file that creates and properly associates these tables.
 
 ## Bonus
 
